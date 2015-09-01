@@ -19,6 +19,12 @@ The example in this repository is a fully functional class derived from the stan
 ## Build and install
 Add to your Global.asax:
 
+In the using section:
+```C#
+using Telerik.Microsoft.Practices.Unity;
+```
+
+and below:
 ```C#
     public class Global : System.Web.HttpApplication
     {
